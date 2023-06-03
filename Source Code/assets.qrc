@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/close.svg</file>
+        <file>icon/excel.svg</file>
+        <file>icon/folder.svg</file>
+        <file>icon/folder1.svg</file>
+        <file>icon/keyboard.svg</file>
+        <file>icon/maximize.svg</file>
+        <file>icon/minimize.svg</file>
+        <file>icon/minus.svg</file>
+        <file>icon/plus.svg</file>
+        <file>icon/plus1.svg</file>
+        <file>icon/printer.svg</file>
+        <file>icon/redo.svg</file>
+        <file>icon/refresh.svg</file>
+        <file>icon/restore.svg</file>
+        <file>icon/save.svg</file>
+        <file>icon/undo.svg</file>
+        <file>icon/window-maximize.svg</file>
+        <file>icon/window-minimize.svg</file>
+        <file>icon/window-restore.svg</file>
+        <file>icon/x.svg</file>
+        <file>icon/success-icon.png</file>
+        <file>icon/A Logo.png</file>
+        <file>icon/A-Logo.ico</file>
+        <file>icon/kdu-beauty.ico</file>
+    </qresource>
+</RCC>
