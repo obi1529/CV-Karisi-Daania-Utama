@@ -50,7 +50,8 @@ class Ui_MainWindow(object):
 "QWidget#widgetTombol {\n"
 "/*Default*/\n"
 "/* background-color:rgb(7, 51, 97); */\n"
-"background-color: rgb(137, 51, 186)\n"
+"/*background-color: rgb(137, 51, 186);*/\n"
+"background-color:rgb(10, 115, 255)\n"
 "}\n"
 "\n"
 "QWidget#widgetTombol QLabel#labelJudul {\n"
@@ -85,9 +86,9 @@ class Ui_MainWindow(object):
 "padding: 4px 12px;\n"
 "}\n"
 "\n"
-"QToolButton#tbExit:hover {\n"
-"background-color:rgb(170, 85"
-                        ", 0);\n"
+"QToolButton#tbE"
+                        "xit:hover {\n"
+"background-color:rgb(170, 85, 0);\n"
 "}\n"
 "\n"
 "QToolButton#tbMaximize:hover,\n"
@@ -179,120 +180,12 @@ class Ui_MainWindow(object):
         self.layoutShortcut = QGridLayout(self.widgetShortcut)
         self.layoutShortcut.setObjectName(u"layoutShortcut")
         self.layoutShortcut.setHorizontalSpacing(24)
-        self.labelC3b = QLabel(self.widgetShortcut)
-        self.labelC3b.setObjectName(u"labelC3b")
-        self.labelC3b.setText(u"3")
-
-        self.layoutShortcut.addWidget(self.labelC3b, 7, 1, 1, 1)
-
-        self.labelMPa = QLabel(self.widgetShortcut)
-        self.labelMPa.setObjectName(u"labelMPa")
-        self.labelMPa.setText(u"Pindah ke\n"
-"Baris Selanjutnya")
-
-        self.layoutShortcut.addWidget(self.labelMPa, 4, 0, 1, 1)
-
-        self.labelARa = QLabel(self.widgetShortcut)
-        self.labelARa.setObjectName(u"labelARa")
-        self.labelARa.setText(u"Tambah Baris")
-
-        self.layoutShortcut.addWidget(self.labelARa, 1, 0, 1, 1)
-
         self.labelC3a = QLabel(self.widgetShortcut)
         self.labelC3a.setObjectName(u"labelC3a")
         self.labelC3a.setText(u"Copy ke\n"
 "Kolom 3")
 
         self.layoutShortcut.addWidget(self.labelC3a, 7, 0, 1, 1)
-
-        self.labelARb = QLabel(self.widgetShortcut)
-        self.labelARb.setObjectName(u"labelARb")
-        self.labelARb.setText(u"A")
-
-        self.layoutShortcut.addWidget(self.labelARb, 1, 1, 1, 1)
-
-        self.labelDRb = QLabel(self.widgetShortcut)
-        self.labelDRb.setObjectName(u"labelDRb")
-        self.labelDRb.setText(u"D")
-
-        self.layoutShortcut.addWidget(self.labelDRb, 2, 1, 1, 1)
-
-        self.labelC1a = QLabel(self.widgetShortcut)
-        self.labelC1a.setObjectName(u"labelC1a")
-        self.labelC1a.setText(u"Copy ke\n"
-"Kolom 1")
-
-        self.layoutShortcut.addWidget(self.labelC1a, 5, 0, 1, 1)
-
-        self.labelMVb = QLabel(self.widgetShortcut)
-        self.labelMVb.setObjectName(u"labelMVb")
-        self.labelMVb.setText(u"S")
-
-        self.layoutShortcut.addWidget(self.labelMVb, 4, 1, 1, 1)
-
-        self.labelRRb = QLabel(self.widgetShortcut)
-        self.labelRRb.setObjectName(u"labelRRb")
-        self.labelRRb.setText(u"Backspace")
-
-        self.layoutShortcut.addWidget(self.labelRRb, 9, 1, 1, 1)
-
-        self.labelC2a = QLabel(self.widgetShortcut)
-        self.labelC2a.setObjectName(u"labelC2a")
-        self.labelC2a.setText(u"Copy ke\n"
-"Kolom 2")
-
-        self.layoutShortcut.addWidget(self.labelC2a, 6, 0, 1, 1)
-
-        self.labelDRa = QLabel(self.widgetShortcut)
-        self.labelDRa.setObjectName(u"labelDRa")
-        self.labelDRa.setText(u"Hapus Baris")
-
-        self.layoutShortcut.addWidget(self.labelDRa, 2, 0, 1, 1)
-
-        self.labelC2b = QLabel(self.widgetShortcut)
-        self.labelC2b.setObjectName(u"labelC2b")
-        self.labelC2b.setText(u"2")
-
-        self.layoutShortcut.addWidget(self.labelC2b, 6, 1, 1, 1)
-
-        self.labelMTb = QLabel(self.widgetShortcut)
-        self.labelMTb.setObjectName(u"labelMTb")
-        self.labelMTb.setText(u"Space")
-
-        self.layoutShortcut.addWidget(self.labelMTb, 8, 1, 1, 1)
-
-        self.labelMNb = QLabel(self.widgetShortcut)
-        self.labelMNb.setObjectName(u"labelMNb")
-        self.labelMNb.setText(u"W")
-
-        self.layoutShortcut.addWidget(self.labelMNb, 3, 1, 1, 1)
-
-        self.labelMNa = QLabel(self.widgetShortcut)
-        self.labelMNa.setObjectName(u"labelMNa")
-        self.labelMNa.setText(u"Pindah ke\n"
-"Baris Sebelumnya")
-
-        self.layoutShortcut.addWidget(self.labelMNa, 3, 0, 1, 1)
-
-        self.labelMTa = QLabel(self.widgetShortcut)
-        self.labelMTa.setObjectName(u"labelMTa")
-        self.labelMTa.setText(u"Pindahkan Resi\n"
-"ke Tab Selesai")
-
-        self.layoutShortcut.addWidget(self.labelMTa, 8, 0, 1, 1)
-
-        self.labelC1b = QLabel(self.widgetShortcut)
-        self.labelC1b.setObjectName(u"labelC1b")
-        self.labelC1b.setText(u"1")
-
-        self.layoutShortcut.addWidget(self.labelC1b, 5, 1, 1, 1)
-
-        self.labelRRa = QLabel(self.widgetShortcut)
-        self.labelRRa.setObjectName(u"labelRRa")
-        self.labelRRa.setText(u"Hapus Resi\n"
-"dari List")
-
-        self.layoutShortcut.addWidget(self.labelRRa, 9, 0, 1, 1)
 
         self.tombolKembali = QPushButton(self.widgetShortcut)
         self.tombolKembali.setObjectName(u"tombolKembali")
@@ -301,6 +194,9 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.tombolKembali.sizePolicy().hasHeightForWidth())
         self.tombolKembali.setSizePolicy(sizePolicy)
+#if QT_CONFIG(tooltip)
+        self.tombolKembali.setToolTip(u"Kembali")
+#endif // QT_CONFIG(tooltip)
         self.tombolKembali.setText(u"Kembali")
         icon3 = QIcon()
         icon3.addFile(u":/icon/icon/undo.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -308,6 +204,101 @@ class Ui_MainWindow(object):
         self.tombolKembali.setFlat(True)
 
         self.layoutShortcut.addWidget(self.tombolKembali, 0, 0, 1, 2)
+
+        self.labelC1a = QLabel(self.widgetShortcut)
+        self.labelC1a.setObjectName(u"labelC1a")
+        self.labelC1a.setText(u"Copy ke\n"
+"Kolom 1")
+
+        self.layoutShortcut.addWidget(self.labelC1a, 5, 0, 1, 1)
+
+        self.labelMTa = QLabel(self.widgetShortcut)
+        self.labelMTa.setObjectName(u"labelMTa")
+        self.labelMTa.setText(u"Pindahkan Resi\n"
+"ke Tab Selesai")
+
+        self.layoutShortcut.addWidget(self.labelMTa, 8, 0, 1, 1)
+
+        self.labelMNa = QLabel(self.widgetShortcut)
+        self.labelMNa.setObjectName(u"labelMNa")
+        self.labelMNa.setText(u"Pindah ke\n"
+"Baris Sebelumnya")
+
+        self.layoutShortcut.addWidget(self.labelMNa, 3, 0, 1, 1)
+
+        self.labelMNb = QLabel(self.widgetShortcut)
+        self.labelMNb.setObjectName(u"labelMNb")
+        self.labelMNb.setText(u"W")
+
+        self.layoutShortcut.addWidget(self.labelMNb, 3, 1, 1, 1)
+
+        self.labelMPa = QLabel(self.widgetShortcut)
+        self.labelMPa.setObjectName(u"labelMPa")
+        self.labelMPa.setText(u"Pindah ke\n"
+"Baris Selanjutnya")
+
+        self.layoutShortcut.addWidget(self.labelMPa, 4, 0, 1, 1)
+
+        self.labelC3b = QLabel(self.widgetShortcut)
+        self.labelC3b.setObjectName(u"labelC3b")
+        self.labelC3b.setText(u"3")
+
+        self.layoutShortcut.addWidget(self.labelC3b, 7, 1, 1, 1)
+
+        self.labelMTb = QLabel(self.widgetShortcut)
+        self.labelMTb.setObjectName(u"labelMTb")
+        self.labelMTb.setText(u"Space")
+
+        self.layoutShortcut.addWidget(self.labelMTb, 8, 1, 1, 1)
+
+        self.labelARb = QLabel(self.widgetShortcut)
+        self.labelARb.setObjectName(u"labelARb")
+        self.labelARb.setText(u"A")
+
+        self.layoutShortcut.addWidget(self.labelARb, 1, 1, 1, 1)
+
+        self.labelMVb = QLabel(self.widgetShortcut)
+        self.labelMVb.setObjectName(u"labelMVb")
+        self.labelMVb.setText(u"S")
+
+        self.layoutShortcut.addWidget(self.labelMVb, 4, 1, 1, 1)
+
+        self.labelARa = QLabel(self.widgetShortcut)
+        self.labelARa.setObjectName(u"labelARa")
+        self.labelARa.setText(u"Tambah Baris")
+
+        self.layoutShortcut.addWidget(self.labelARa, 1, 0, 1, 1)
+
+        self.labelC2a = QLabel(self.widgetShortcut)
+        self.labelC2a.setObjectName(u"labelC2a")
+        self.labelC2a.setText(u"Copy ke\n"
+"Kolom 2")
+
+        self.layoutShortcut.addWidget(self.labelC2a, 6, 0, 1, 1)
+
+        self.labelC2b = QLabel(self.widgetShortcut)
+        self.labelC2b.setObjectName(u"labelC2b")
+        self.labelC2b.setText(u"2")
+
+        self.layoutShortcut.addWidget(self.labelC2b, 6, 1, 1, 1)
+
+        self.labelC1b = QLabel(self.widgetShortcut)
+        self.labelC1b.setObjectName(u"labelC1b")
+        self.labelC1b.setText(u"1")
+
+        self.layoutShortcut.addWidget(self.labelC1b, 5, 1, 1, 1)
+
+        self.labelDRb = QLabel(self.widgetShortcut)
+        self.labelDRb.setObjectName(u"labelDRb")
+        self.labelDRb.setText(u"D")
+
+        self.layoutShortcut.addWidget(self.labelDRb, 2, 1, 1, 1)
+
+        self.labelDRa = QLabel(self.widgetShortcut)
+        self.labelDRa.setObjectName(u"labelDRa")
+        self.labelDRa.setText(u"Hapus Baris")
+
+        self.layoutShortcut.addWidget(self.labelDRa, 2, 0, 1, 1)
 
 
         self.layoutTombol.addWidget(self.widgetShortcut)
@@ -326,6 +317,9 @@ class Ui_MainWindow(object):
 
         self.labelLink = QLabel(self.widgetTombol)
         self.labelLink.setObjectName(u"labelLink")
+#if QT_CONFIG(tooltip)
+        self.labelLink.setToolTip(u"Lihat Update")
+#endif // QT_CONFIG(tooltip)
         self.labelLink.setText(u"<html><head><style>a {text-decoration:none;color:rgb(128,200,128);}</style></head><body><p><a href=\"https://www.github.com/obi1529\">GitHub</a></p></body></html>")
         self.labelLink.setAlignment(Qt.AlignCenter)
 
@@ -355,6 +349,9 @@ class Ui_MainWindow(object):
 
         self.tbMinimize = QToolButton(self.widgetTitleBar)
         self.tbMinimize.setObjectName(u"tbMinimize")
+#if QT_CONFIG(tooltip)
+        self.tbMinimize.setToolTip(u"Minimize")
+#endif // QT_CONFIG(tooltip)
         self.tbMinimize.setText(u"Min")
         icon4 = QIcon()
         icon4.addFile(u":/icon/icon/window-minimize.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -364,6 +361,9 @@ class Ui_MainWindow(object):
 
         self.tbMaximize = QToolButton(self.widgetTitleBar)
         self.tbMaximize.setObjectName(u"tbMaximize")
+#if QT_CONFIG(tooltip)
+        self.tbMaximize.setToolTip(u"Maximize/Restore")
+#endif // QT_CONFIG(tooltip)
         self.tbMaximize.setText(u"Max")
         icon5 = QIcon()
         icon5.addFile(u":/icon/icon/window-restore.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -374,6 +374,9 @@ class Ui_MainWindow(object):
 
         self.tbExit = QToolButton(self.widgetTitleBar)
         self.tbExit.setObjectName(u"tbExit")
+#if QT_CONFIG(tooltip)
+        self.tbExit.setToolTip(u"Tutup Aplikasi")
+#endif // QT_CONFIG(tooltip)
         self.tbExit.setText(u"Ext")
         icon6 = QIcon()
         icon6.addFile(u":/icon/icon/x.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -428,6 +431,10 @@ class Ui_MainWindow(object):
         self.widgetPdf.addWidget(self.tabWidget)
         self.textEdit = QTextEdit(self.widgetPdf)
         self.textEdit.setObjectName(u"textEdit")
+#if QT_CONFIG(tooltip)
+        self.textEdit.setToolTip(u"")
+#endif // QT_CONFIG(tooltip)
+        self.textEdit.setPlaceholderText(u"")
         self.widgetPdf.addWidget(self.textEdit)
         self.splitter.addWidget(self.widgetPdf)
         self.widgetExcel = QWidget(self.splitter)
@@ -444,6 +451,9 @@ class Ui_MainWindow(object):
         self.toolLayout.setObjectName(u"toolLayout")
         self.tbTambahRow = QToolButton(self.widgetExcel)
         self.tbTambahRow.setObjectName(u"tbTambahRow")
+#if QT_CONFIG(tooltip)
+        self.tbTambahRow.setToolTip(u"Tambah Row")
+#endif // QT_CONFIG(tooltip)
         self.tbTambahRow.setText(u"Add")
         icon7 = QIcon()
         icon7.addFile(u":/icon/icon/plus.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -453,6 +463,9 @@ class Ui_MainWindow(object):
 
         self.tbHapusRow = QToolButton(self.widgetExcel)
         self.tbHapusRow.setObjectName(u"tbHapusRow")
+#if QT_CONFIG(tooltip)
+        self.tbHapusRow.setToolTip(u"Hapus Row")
+#endif // QT_CONFIG(tooltip)
         self.tbHapusRow.setText(u"Rmv")
         icon8 = QIcon()
         icon8.addFile(u":/icon/icon/minus.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -462,6 +475,9 @@ class Ui_MainWindow(object):
 
         self.tbOpen = QToolButton(self.widgetExcel)
         self.tbOpen.setObjectName(u"tbOpen")
+#if QT_CONFIG(tooltip)
+        self.tbOpen.setToolTip(u"Muat File Excel")
+#endif // QT_CONFIG(tooltip)
         self.tbOpen.setText(u"Opn")
         icon9 = QIcon()
         icon9.addFile(u":/icon/icon/excel.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -471,6 +487,9 @@ class Ui_MainWindow(object):
 
         self.tbSave = QToolButton(self.widgetExcel)
         self.tbSave.setObjectName(u"tbSave")
+#if QT_CONFIG(tooltip)
+        self.tbSave.setToolTip(u"Simpan")
+#endif // QT_CONFIG(tooltip)
         self.tbSave.setText(u"Sav")
         icon10 = QIcon()
         icon10.addFile(u":/icon/icon/save.svg", QSize(), QIcon.Normal, QIcon.Off)
@@ -496,6 +515,9 @@ class Ui_MainWindow(object):
         sizePolicy3.setHeightForWidth(self.leCell.sizePolicy().hasHeightForWidth())
         self.leCell.setSizePolicy(sizePolicy3)
         self.leCell.setMaximumSize(QSize(82, 16777215))
+#if QT_CONFIG(tooltip)
+        self.leCell.setToolTip(u"Mulai dari Cell...")
+#endif // QT_CONFIG(tooltip)
         self.leCell.setText(u"")
         self.leCell.setMaxLength(10)
         self.leCell.setFrame(False)
@@ -511,6 +533,9 @@ class Ui_MainWindow(object):
 
         self.leFileName = QLineEdit(self.widgetExcel)
         self.leFileName.setObjectName(u"leFileName")
+#if QT_CONFIG(tooltip)
+        self.leFileName.setToolTip(u"Nama File")
+#endif // QT_CONFIG(tooltip)
         self.leFileName.setText(u"")
         self.leFileName.setFrame(False)
         self.leFileName.setPlaceholderText(u"Nama File")
@@ -519,6 +544,9 @@ class Ui_MainWindow(object):
 
         self.tbClear = QToolButton(self.widgetExcel)
         self.tbClear.setObjectName(u"tbClear")
+#if QT_CONFIG(tooltip)
+        self.tbClear.setToolTip(u"Bersihkan Tabel")
+#endif // QT_CONFIG(tooltip)
         self.tbClear.setText(u"Rf")
         icon11 = QIcon()
         icon11.addFile(u":/icon/icon/refresh.svg", QSize(), QIcon.Normal, QIcon.Off)

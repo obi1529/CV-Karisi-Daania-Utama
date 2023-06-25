@@ -42,7 +42,8 @@ border-style:none;
 QWidget#widgetTombol {
 /*Default*/
 /* background-color:rgb(7, 51, 97); */
-background-color: rgb(137, 51, 186)
+/*background-color: rgb(137, 51, 186);*/
+background-color:rgb(10, 115, 255)
 }
 
 QWidget#widgetTombol QLabel#labelJudul {
@@ -219,136 +220,11 @@ Shortcut</string>
             <property name="horizontalSpacing">
              <number>24</number>
             </property>
-            <item row="7" column="1">
-             <widget class="QLabel" name="labelC3b">
-              <property name="text">
-               <string notr="true">3</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="0">
-             <widget class="QLabel" name="labelMPa">
-              <property name="text">
-               <string notr="true">Pindah ke
-Baris Selanjutnya</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QLabel" name="labelARa">
-              <property name="text">
-               <string notr="true">Tambah Baris</string>
-              </property>
-             </widget>
-            </item>
             <item row="7" column="0">
              <widget class="QLabel" name="labelC3a">
               <property name="text">
                <string notr="true">Copy ke
 Kolom 3</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="1">
-             <widget class="QLabel" name="labelARb">
-              <property name="text">
-               <string notr="true">A</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="1">
-             <widget class="QLabel" name="labelDRb">
-              <property name="text">
-               <string notr="true">D</string>
-              </property>
-             </widget>
-            </item>
-            <item row="5" column="0">
-             <widget class="QLabel" name="labelC1a">
-              <property name="text">
-               <string notr="true">Copy ke
-Kolom 1</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="1">
-             <widget class="QLabel" name="labelMVb">
-              <property name="text">
-               <string notr="true">S</string>
-              </property>
-             </widget>
-            </item>
-            <item row="9" column="1">
-             <widget class="QLabel" name="labelRRb">
-              <property name="text">
-               <string notr="true">Backspace</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="0">
-             <widget class="QLabel" name="labelC2a">
-              <property name="text">
-               <string notr="true">Copy ke
-Kolom 2</string>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="0">
-             <widget class="QLabel" name="labelDRa">
-              <property name="text">
-               <string notr="true">Hapus Baris</string>
-              </property>
-             </widget>
-            </item>
-            <item row="6" column="1">
-             <widget class="QLabel" name="labelC2b">
-              <property name="text">
-               <string notr="true">2</string>
-              </property>
-             </widget>
-            </item>
-            <item row="8" column="1">
-             <widget class="QLabel" name="labelMTb">
-              <property name="text">
-               <string notr="true">Space</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="1">
-             <widget class="QLabel" name="labelMNb">
-              <property name="text">
-               <string notr="true">W</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="0">
-             <widget class="QLabel" name="labelMNa">
-              <property name="text">
-               <string notr="true">Pindah ke
-Baris Sebelumnya</string>
-              </property>
-             </widget>
-            </item>
-            <item row="8" column="0">
-             <widget class="QLabel" name="labelMTa">
-              <property name="text">
-               <string notr="true">Pindahkan Resi
-ke Tab Selesai</string>
-              </property>
-             </widget>
-            </item>
-            <item row="5" column="1">
-             <widget class="QLabel" name="labelC1b">
-              <property name="text">
-               <string notr="true">1</string>
-              </property>
-             </widget>
-            </item>
-            <item row="9" column="0">
-             <widget class="QLabel" name="labelRRa">
-              <property name="text">
-               <string notr="true">Hapus Resi
-dari List</string>
               </property>
              </widget>
             </item>
@@ -360,6 +236,9 @@ dari List</string>
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="toolTip">
+               <string notr="true">Kembali</string>
+              </property>
               <property name="text">
                <string notr="true">Kembali</string>
               </property>
@@ -369,6 +248,116 @@ dari List</string>
               </property>
               <property name="flat">
                <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="labelC1a">
+              <property name="text">
+               <string notr="true">Copy ke
+Kolom 1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="labelMTa">
+              <property name="text">
+               <string notr="true">Pindahkan Resi
+ke Tab Selesai</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="labelMNa">
+              <property name="text">
+               <string notr="true">Pindah ke
+Baris Sebelumnya</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="labelMNb">
+              <property name="text">
+               <string notr="true">W</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="labelMPa">
+              <property name="text">
+               <string notr="true">Pindah ke
+Baris Selanjutnya</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLabel" name="labelC3b">
+              <property name="text">
+               <string notr="true">3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLabel" name="labelMTb">
+              <property name="text">
+               <string notr="true">Space</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelARb">
+              <property name="text">
+               <string notr="true">A</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="labelMVb">
+              <property name="text">
+               <string notr="true">S</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="labelARa">
+              <property name="text">
+               <string notr="true">Tambah Baris</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="labelC2a">
+              <property name="text">
+               <string notr="true">Copy ke
+Kolom 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLabel" name="labelC2b">
+              <property name="text">
+               <string notr="true">2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLabel" name="labelC1b">
+              <property name="text">
+               <string notr="true">1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="labelDRb">
+              <property name="text">
+               <string notr="true">D</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="labelDRa">
+              <property name="text">
+               <string notr="true">Hapus Baris</string>
               </property>
              </widget>
             </item>
@@ -391,6 +380,9 @@ dari List</string>
          </item>
          <item alignment="Qt::AlignBottom">
           <widget class="QLabel" name="labelLink">
+           <property name="toolTip">
+            <string notr="true">Lihat Update</string>
+           </property>
            <property name="text">
             <string notr="true">&lt;html&gt;&lt;head&gt;&lt;style&gt;a {text-decoration:none;color:rgb(128,200,128);}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.github.com/obi1529&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
@@ -455,6 +447,9 @@ dari List</string>
           </item>
           <item>
            <widget class="QToolButton" name="tbMinimize">
+            <property name="toolTip">
+             <string notr="true">Minimize</string>
+            </property>
             <property name="text">
              <string notr="true">Min</string>
             </property>
@@ -466,6 +461,9 @@ dari List</string>
           </item>
           <item>
            <widget class="QToolButton" name="tbMaximize">
+            <property name="toolTip">
+             <string notr="true">Maximize/Restore</string>
+            </property>
             <property name="text">
              <string notr="true">Max</string>
             </property>
@@ -480,6 +478,9 @@ dari List</string>
           </item>
           <item>
            <widget class="QToolButton" name="tbExit">
+            <property name="toolTip">
+             <string notr="true">Tutup Aplikasi</string>
+            </property>
             <property name="text">
              <string notr="true">Ext</string>
             </property>
@@ -568,7 +569,14 @@ dari List</string>
             </layout>
            </widget>
           </widget>
-          <widget class="QTextEdit" name="textEdit"/>
+          <widget class="QTextEdit" name="textEdit">
+           <property name="toolTip">
+            <string notr="true"/>
+           </property>
+           <property name="placeholderText">
+            <string notr="true"/>
+           </property>
+          </widget>
          </widget>
          <widget class="QWidget" name="widgetExcel" native="true">
           <property name="sizePolicy">
@@ -594,6 +602,9 @@ dari List</string>
             <layout class="QHBoxLayout" name="toolLayout">
              <item>
               <widget class="QToolButton" name="tbTambahRow">
+               <property name="toolTip">
+                <string notr="true">Tambah Row</string>
+               </property>
                <property name="text">
                 <string notr="true">Add</string>
                </property>
@@ -605,6 +616,9 @@ dari List</string>
              </item>
              <item>
               <widget class="QToolButton" name="tbHapusRow">
+               <property name="toolTip">
+                <string notr="true">Hapus Row</string>
+               </property>
                <property name="text">
                 <string notr="true">Rmv</string>
                </property>
@@ -616,6 +630,9 @@ dari List</string>
              </item>
              <item>
               <widget class="QToolButton" name="tbOpen">
+               <property name="toolTip">
+                <string notr="true">Muat File Excel</string>
+               </property>
                <property name="text">
                 <string notr="true">Opn</string>
                </property>
@@ -627,6 +644,9 @@ dari List</string>
              </item>
              <item>
               <widget class="QToolButton" name="tbSave">
+               <property name="toolTip">
+                <string notr="true">Simpan</string>
+               </property>
                <property name="text">
                 <string notr="true">Sav</string>
                </property>
@@ -670,6 +690,9 @@ dari List</string>
                  <height>16777215</height>
                 </size>
                </property>
+               <property name="toolTip">
+                <string notr="true">Mulai dari Cell...</string>
+               </property>
                <property name="text">
                 <string notr="true"/>
                </property>
@@ -693,6 +716,9 @@ dari List</string>
              </item>
              <item>
               <widget class="QLineEdit" name="leFileName">
+               <property name="toolTip">
+                <string notr="true">Nama File</string>
+               </property>
                <property name="text">
                 <string notr="true"/>
                </property>
@@ -706,6 +732,9 @@ dari List</string>
              </item>
              <item>
               <widget class="QToolButton" name="tbClear">
+               <property name="toolTip">
+                <string notr="true">Bersihkan Tabel</string>
+               </property>
                <property name="text">
                 <string notr="true">Rf</string>
                </property>
